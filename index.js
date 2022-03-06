@@ -49,7 +49,7 @@ const askOtherTeamMembers = () => {
         } else if (nextAdd == 'Intern'){
           askIntern().then(askOtherTeamMembers);
         } else {
-            console.log(allEmployees)
+            console.log("HTML file created")
             writeHTMLToFile();
             return;
         }

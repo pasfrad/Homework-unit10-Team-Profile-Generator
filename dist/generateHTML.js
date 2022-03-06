@@ -33,7 +33,8 @@ function makeCard(employee) {
             Email: <a href="mailto:${employee.getEmail()}">${employee.getEmail()}</a>
         </div>
         <div class="card-body card-link">
-            Engineer Github: <a href=github.com/${employee.getGithub()}</li>
+            Engineer Github: <a href="https://github.com/${employee.getGithub()}">${employee.getGithub()}</a>
+        </div>
         </div>`
     } else {
         card = `<div class="container mt-4">
@@ -44,7 +45,7 @@ function makeCard(employee) {
         <ul class="list-group list-group-flush">
             <li class="list-group-item">Name: ${employee.getName()}</li>
             <li class="list-group-item">Employee ID: ${employee.getId()}</li>
-            <li class="list-group-item">Engineer Github: ${employee.getSchool()}</li>
+            <li class="list-group-item">Intern School: ${employee.getSchool()}</li>
         </ul>
         <div class="card-body card-link">
             Email: <a href="mailto:${employee.getEmail()}">${employee.getEmail()}</a>
@@ -72,14 +73,11 @@ function generateHTML(data) {
                     <h1 class="navbar-brand">Team Members</h1>
                 </div>
             </div>
-        </nav>
-        <div>`;
+        </nav>`;
             data.forEach((employee) => {
                 htmlOutput = htmlOutput + makeCard(employee);
         
             })
-            htmlOutput = htmlOutput +
-        `</div`;
 
     return htmlOutput;
 }

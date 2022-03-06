@@ -26,3 +26,5 @@ The application is run through Node.js and uses the Inquirer npm, and Jest to ru
 The user runs the application through the command line and answers the questions, and the file is automatically generated.
 
 ## Video demonstration
+
+https://youtu.be/-BrFrWT9qNU
