@@ -2,10 +2,14 @@
 
 ## Table of Contents
 
+- [Picture](#picture)
 - [Description](#description)
 - [License](#license)
 - [Installation](#installation)
 - [Usage](#usage)
+
+## Picture
+![picture of team profile](./teamProfile.png)
 
 ## Description
 
@@ -14,8 +18,6 @@ This is a command line application that takes the user's input for information a
 ## License
 
 None
-
-(Not licensed for use of any kind)
 
 ## Installation
 
